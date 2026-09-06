@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Badhorse";
+  src: url("/fonts/Badhorse.woff2") format("woff2");
+  font-display: swap;
+}
+
+:root {
+  --ivory: #f5f0e7;
+  --charcoal: #292622;
+  --terracotta: #8b4a2f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--charcoal);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #c8b59b;
+  color: #292622;
+}
+
+.display-logo {
+  font-family: "Badhorse", "Times New Roman", Georgia, serif;
+  font-weight: 700;
+}
+
+.eyebrow {
+  @apply text-xs font-semibold uppercase tracking-[0.22em] text-terracotta;
+}
+
+.section-title {
+  @apply max-w-2xl text-4xl font-semibold leading-[1.08] md:text-5xl;
+  text-wrap: balance;
+}
+
+.nav-link {
+  @apply relative text-charcoal/70 transition hover:text-charcoal;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 100%;
+  bottom: -7px;
+  height: 1px;
+  background: var(--terracotta);
+  transition: right 180ms ease;
+}
+
+.nav-link:hover::after {
+  right: 0;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
