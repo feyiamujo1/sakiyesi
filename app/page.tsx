@@ -192,7 +192,7 @@ export default function Home() {
       </section>
 
       <section className="border-y border-charcoal/10 bg-charcoal py-8 text-ivory">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-5 text-center text-xs font-semibold uppercase tracking-[0.18em] md:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-center gap-3 px-5 text-center text-xs font-semibold uppercase tracking-[0.18em] md:flex-row md:flex-wrap md:gap-x-10 md:gap-y-3 md:px-8">
           <span>Mindfulness</span>
           <Cowry className="h-4 w-6 text-gold" />
           <span>Botanical illustration</span>
@@ -217,7 +217,7 @@ export default function Home() {
                 Author portrait placeholder
               </p>
               <p className="mt-2 text-sm text-charcoal/70">
-                Replace this panel with Dr. Lawal’s preferred portrait.
+                Any subtext if needed
               </p>
             </div>
           </div>
