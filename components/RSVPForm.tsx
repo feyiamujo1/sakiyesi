@@ -18,7 +18,7 @@ export default function RSVPForm() {
 
     try {
       const response = await fetch(
-        "https://formspree.io/f/mjyvjrwj",
+        "https://formspree.io/f/mgaeryde",
         {
           method: "POST",
           body: formData,

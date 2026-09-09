@@ -188,7 +188,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 py-16 md:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:py-24">
           <div className="relative z-10">
             <div className="mb-7 inline-flex items-center gap-3 rounded-full border border-terracotta/25 bg-white/35 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
-              The Art of Paying Attention
+              Sàkíyèsí: The Art of Paying Attention
             </div>
             <p className="eyebrow">A creative wellbeing experience through:</p>
             <h1 className="mt-4 max-w-3xl text-balance text-5xl font-semibold leading-[0.98] md:text-7xl">
