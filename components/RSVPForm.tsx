@@ -14,9 +14,9 @@ export default function RSVPForm() {
     <form onSubmit={handleSubmit} className="rounded-[2rem] bg-charcoal p-6 text-ivory shadow-soft md:p-8">
       <div className="mb-6">
         <p className="eyebrow !text-sand">Stay in the loop</p>
-        <h3 className="mt-2 text-2xl font-semibold md:text-3xl">Be first to receive launch updates.</h3>
+        <h3 className="mt-2 text-2xl font-semibold md:text-3xl">RSVP For The Launch</h3>
         <p className="mt-3 max-w-xl text-sm leading-6 text-ivory/70">
-          Leave your details and connect this form to your preferred email or RSVP service when the launch information is confirmed.
+          Leave your name and email to receive launch updates, event details and news about the book.
         </p>
       </div>
 
@@ -42,7 +42,7 @@ export default function RSVPForm() {
           type="submit"
           className="h-12 rounded-full bg-terracotta px-6 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-[#77402A]"
         >
-          Join the list
+          Join the Sàkíyèsí list
         </button>
       </div>
 
