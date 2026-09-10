@@ -133,7 +133,7 @@ const faqs = [
 
 export default function Home() {
   return (
-    <main className="overflow-hidden bg-ivory text-charcoal">
+    <main className="bg-ivory text-charcoal">
       <header className="sticky top-0 z-50 border-b border-charcoal/10 bg-ivory/90 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
           <a
@@ -179,7 +179,7 @@ export default function Home() {
 
       <section
         id="top"
-        className="relative isolate min-h-[82vh] border-b border-charcoal/10">
+        className="relative isolate min-h-[82vh] overflow-hidden border-b border-charcoal/10">
         <div className="absolute left-[-5rem] top-24 h-56 w-56 rounded-full bg-mauve/20 blur-3xl" />
         <div className="absolute right-[-3rem] top-20 h-72 w-72 rounded-full bg-gold/20 blur-3xl" />
         <LeafMark className="absolute right-[7%] top-24 hidden w-36 rotate-12 text-terracotta/30 lg:block" />
