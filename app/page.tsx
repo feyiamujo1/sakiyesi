@@ -89,17 +89,21 @@ const interiorPreviews = [
     src: "/book-mockups/mockup-1.jpg",
     alt: "Sàkíyèsí interior page preview placeholder 1"
   },
-  // {
-  //   src: "/book-mockups/mockup-2.jpg",
-  //   alt: "Sàkíyèsí interior page preview placeholder 2"
-  // },
   {
-    src: "/book-mockups/mockup-3.jpeg",
+    src: "/book-mockups/mockup-2.jpg",
+    alt: "Sàkíyèsí interior page preview placeholder 2"
+  },
+  {
+    src: "/book-mockups/mockup-3.jpg",
     alt: "Sàkíyèsí interior page preview placeholder 3"
   },
   {
-    src: "/book-mockups/mockup-4.jpeg",
+    src: "/book-mockups/mockup-4.jpg",
     alt: "Sàkíyèsí interior page preview placeholder 4"
+  },
+  {
+    src: "/book-mockups/mockup-5.jpg",
+    alt: "Sàkíyèsí interior page preview placeholder 5"
   }
 ];
 
