@@ -641,31 +641,12 @@ export default function Home() {
                 </a>
               </article>
 
-              <article className="rounded-[2rem] border border-charcoal/10 bg-sage/15 p-7 md:p-8">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sage">
-                  For organisations & supporters
-                </p>
-                <h4 className="mt-4 text-2xl font-semibold">
-                  Bring Sàkíyèsí to others
-                </h4>
-                <p className="mt-4 text-sm leading-7 text-charcoal/65">
-                  Bring Sàkíyèsí to your school, organisation, wellness
-                  programme or community through bulk purchases, sponsored
-                  copies, workshops or other partnerships.
-                </p>
-                <a
-                  href="mailto:thriveeasyafrica@gmail.com"
-                  className="mt-7 inline-flex rounded-full border border-charcoal/20 px-6 py-3 text-sm font-semibold transition hover:border-charcoal/40 hover:bg-ivory">
-                  Partner with Sàkíyèsí
-                </a>
-              </article>
-
               <article className="rounded-[2rem] border border-charcoal/10 bg-gold/15 p-7 md:p-8">
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
                   For sponsors
                 </p>
                 <h4 className="mt-4 text-2xl font-semibold">
-                  Sponsor a copy
+                  Sponsor book copies
                 </h4>
                 <p className="mt-4 text-sm leading-7 text-charcoal/65">
                   Help fund copies of Sàkíyèsí for schools, wellness spaces
@@ -688,6 +669,27 @@ export default function Home() {
                   </div>
                 </dl>
               </article>
+
+              <article className="rounded-[2rem] border border-charcoal/10 bg-sage/15 p-7 md:p-8">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sage">
+                  For organisations & supporters
+                </p>
+                <h4 className="mt-4 text-2xl font-semibold">
+                  Bring Sàkíyèsí to others
+                </h4>
+                <p className="mt-4 text-sm leading-7 text-charcoal/65">
+                  Bring Sàkíyèsí to your school, organisation, wellness
+                  programme or community through bulk purchases, sponsored
+                  copies, workshops or other partnerships.
+                </p>
+                <a
+                  href="mailto:thriveeasyafrica@gmail.com"
+                  className="mt-7 inline-flex rounded-full border border-charcoal/20 px-6 py-3 text-sm font-semibold transition hover:border-charcoal/40 hover:bg-ivory">
+                  Partner with Sàkíyèsí
+                </a>
+              </article>
+
+              
             </div>
 
             <div className="mt-5">
