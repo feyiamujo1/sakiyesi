@@ -137,7 +137,7 @@ const faqs = [
 
 export default function Home() {
   return (
-    <main className="bg-ivory text-charcoal">
+    <main className="overflow-x-clip bg-ivory text-charcoal">
       <header className="sticky top-0 z-50 border-b border-charcoal/10 bg-ivory/90 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-8">
           <a
@@ -622,7 +622,7 @@ export default function Home() {
               </h3>
             </div>
 
-            <div className="mt-10 grid gap-5 md:grid-cols-2">
+            <div className="mt-10 grid gap-5 md:grid-cols-3">
               <article className="rounded-[2rem] border border-charcoal/10 bg-sand/25 p-7 md:p-8">
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-terracotta">
                   For individuals
@@ -658,6 +658,35 @@ export default function Home() {
                   className="mt-7 inline-flex rounded-full border border-charcoal/20 px-6 py-3 text-sm font-semibold transition hover:border-charcoal/40 hover:bg-ivory">
                   Partner with Sàkíyèsí
                 </a>
+              </article>
+
+              <article className="rounded-[2rem] border border-charcoal/10 bg-gold/15 p-7 md:p-8">
+                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold">
+                  For sponsors
+                </p>
+                <h4 className="mt-4 text-2xl font-semibold">
+                  Sponsor a copy
+                </h4>
+                <p className="mt-4 text-sm leading-7 text-charcoal/65">
+                  Help fund copies of Sàkíyèsí for schools, wellness spaces
+                  and community programmes with a direct transfer.
+                </p>
+                <dl className="mt-7 space-y-3 rounded-2xl border border-charcoal/10 bg-ivory/70 p-5 text-sm">
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-charcoal/55">Account name</dt>
+                    <dd className="font-semibold">THRIVE EASY AFRICA</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-charcoal/55">Bank</dt>
+                    <dd className="font-semibold">Zenith Bank</dd>
+                  </div>
+                  <div className="flex items-center justify-between gap-4">
+                    <dt className="text-charcoal/55">Account number</dt>
+                    <dd className="font-mono font-semibold tracking-wide">
+                      1222677300
+                    </dd>
+                  </div>
+                </dl>
               </article>
             </div>
 
