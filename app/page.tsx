@@ -135,6 +135,10 @@ const faqs = [
   }
 ];
 
+const zoomJoinUrl =
+  "https://us06web.zoom.us/j/83415292047?pwd=B47ri7TdJwcJHWazXvbNVKBO4Na84E.1";
+const zoomChatUrl = "https://us06web.zoom.us/launch/jc/83415292047";
+
 export default function Home() {
   return (
     <main className="overflow-x-clip bg-ivory text-charcoal">
@@ -171,13 +175,22 @@ export default function Home() {
               FAQs
             </a>
           </nav>
-          <a
-            href="https://selar.com/sakiyesi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="rounded-full bg-charcoal px-5 py-2.5 text-sm font-semibold text-ivory transition hover:-translate-y-0.5 hover:bg-terracotta">
-            Order your copy
-          </a>
+          <div className="flex items-center gap-2 sm:gap-3">
+            <a
+              href={zoomJoinUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-charcoal/20 px-4 py-2.5 text-xs font-semibold text-charcoal transition hover:border-charcoal/40 hover:bg-ivory sm:px-5 sm:text-sm">
+              Join Meeting
+            </a>
+            <a
+              href="https://selar.com/sakiyesi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full bg-charcoal px-4 py-2.5 text-xs font-semibold text-ivory transition hover:-translate-y-0.5 hover:bg-terracotta sm:px-5 sm:text-sm">
+              Order your copy
+            </a>
+          </div>
         </div>
       </header>
 
@@ -591,23 +604,44 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="border-t border-ivory/10 bg-ivory/[0.04] p-7 md:flex md:items-center md:justify-between md:gap-8 md:p-9">
-              <div className="max-w-2xl">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand">
-                  Getting there
-                </p>
-                <p className="mt-3 text-sm leading-6 text-ivory/65 md:text-base">
-                  Sen. Oluremi Tinubu’s The Dream Centre is beside Ojaja Hostel,
-                  at the back of OAU Central Market.
-                </p>
+            <div className="border-t border-ivory/10 bg-ivory/[0.04] p-7 md:p-9">
+              <div className="divide-y divide-ivory/10">
+                <div className="pb-7 md:pb-8">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand">
+                    Getting there
+                  </p>
+                  <p className="mt-3 text-sm leading-6 text-ivory/65 md:text-base">
+                    Sen. Oluremi Tinubu’s The Dream Centre is beside Ojaja
+                    Hostel, at the back of OAU Central Market.
+                  </p>
+                </div>
+                <div className="pt-7 md:pt-8">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand">
+                    Joining online
+                  </p>
+                  <p className="mt-3 text-sm leading-6 text-ivory/65 md:text-base">
+                    Meeting ID: 834 1529 2047
+                    <br />
+                    Passcode: SAKIYESI
+                  </p>
+                  <div className="mt-5 flex flex-wrap gap-3">
+                    <a
+                      href={zoomJoinUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex shrink-0 rounded-full border border-ivory/20 px-6 py-3 text-sm font-semibold text-ivory transition hover:bg-ivory hover:text-charcoal">
+                      Join Zoom Meeting
+                    </a>
+                    <a
+                      href={zoomChatUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex shrink-0 rounded-full px-6 py-3 text-sm font-semibold text-ivory/65 underline-offset-4 transition hover:text-ivory hover:underline">
+                      Meeting chat
+                    </a>
+                  </div>
+                </div>
               </div>
-              <a
-                href="https://bit.ly/SakiyesiLaunch"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-6 inline-flex shrink-0 rounded-full border border-ivory/20 px-6 py-3 text-sm font-semibold text-ivory transition hover:bg-ivory hover:text-charcoal md:mt-0">
-                Join online via Zoom
-              </a>
             </div>
           </div>
 
