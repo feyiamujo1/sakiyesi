@@ -226,12 +226,12 @@ export default function Home() {
                 href="https://selar.com/sakiyesi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full bg-terracotta px-6 py-3.5 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-[#77402A]">
+                className="rounded-full bg-terracotta px-4 md:px-6 py-2.5 md:py-3.5 text-sm font-semibold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-[#77402A]">
                 Order your copy
               </a>
               <a
                 href="mailto:thriveeasyafrica@gmail.com"
-                className="rounded-full border border-charcoal/20 bg-white/30 px-6 py-3.5 text-sm font-semibold transition hover:border-charcoal/40 hover:bg-white/60">
+                className="rounded-full border border-charcoal/20 bg-white/30 px-4 md:px-6 py-2.5 md:py-3.5 text-sm font-semibold transition hover:border-charcoal/40 hover:bg-white/60">
                 Partner with Sàkíyèsí
               </a>
             </div>
