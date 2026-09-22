@@ -243,7 +243,7 @@ export default function Home() {
 
           <div className="relative mx-auto w-full max-w-[520px]">
             <div className="absolute -inset-5 rotate-3 rounded-[2.5rem] border border-terracotta/20" />
-            <div className="absolute -right-10 -top-10 rounded-2xl border border-charcoal/10 bg-ivory px-5 py-4 shadow-soft">
+            <div className="absolute right-0 md:-right-10 -top-10 rounded-2xl border border-charcoal/10 bg-ivory px-5 py-4 shadow-soft">
               <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-terracotta">
                 Inside
               </p>
@@ -258,7 +258,7 @@ export default function Home() {
                 priority
                 className="mx-auto w-full max-w-[365px] rounded-sm object-cover shadow-[0_24px_60px_rgba(41,38,34,0.22)]"
               />
-              <div className="absolute -bottom-5 -left-5 rounded-2xl border border-charcoal/10 bg-ivory px-5 py-4 shadow-soft">
+              <div className="absolute -bottom-5 left-0 md:-left-5 rounded-2xl border border-charcoal/10 bg-ivory px-5 py-4 shadow-soft">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-terracotta">
                   Inside
                 </p>
