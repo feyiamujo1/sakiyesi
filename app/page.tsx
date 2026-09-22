@@ -153,7 +153,7 @@ export default function Home() {
               width={120}
               height={55}
               priority
-              className="mx-auto w-full max-w-[370px] rounded-sm object-cover"
+              className="mx-auto w-full max-w-[320px] md:max-w-[370px] rounded-sm object-cover"
             />
           </a>
           <nav
@@ -180,8 +180,8 @@ export default function Home() {
               href={zoomJoinUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-charcoal/20 px-4 py-2.5 text-xs font-semibold text-charcoal transition hover:border-charcoal/40 hover:bg-ivory sm:px-5 sm:text-sm">
-              Join Meeting
+              className="rounded-full md:border md:border-charcoal/20 md:px-4 md:py-2.5 text-xs font-semibold text-charcoal transition md:hover:border-charcoal/40 md:hover:bg-ivory sm:px-5 sm:text-sm">
+              Join the Launch
             </a>
             <a
               href="https://selar.com/sakiyesi"
