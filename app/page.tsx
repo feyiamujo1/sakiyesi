@@ -150,10 +150,10 @@ export default function Home() {
             <Image
               src="/sakiyesi-full-logo.png"
               alt="Logo for Sàkíyèsí by Adérónkẹ́ Lawal"
-              width={120}
-              height={55}
+              width={110}
+              height={50}
               priority
-              className="mx-auto w-full max-w-[320px] md:max-w-[370px] rounded-sm object-cover"
+              className="mx-auto w-full max-w-[300px] md:max-w-[370px] rounded-sm object-cover"
             />
           </a>
           <nav
