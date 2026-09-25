@@ -79,7 +79,7 @@ const storyMoments = [
   {
     year: "Now",
     title: "From PDF to physical book",
-    copy: "With encouragement and advice from friends, including author Dr. Paul Apomuche, Adérónkẹ́ decided to bring Sàkíyèsí to life as a physical hardcover book. Its Yoruba name had always held the purpose clearly: pay attention."
+    copy: "With encouragement and advice from friends, including author Dr. Paul Akpomuje, Adérónkẹ́ decided to bring Sàkíyèsí to life as a physical hardcover book. Its Yoruba name had always held the purpose clearly: pay attention."
   }
 ];
 
